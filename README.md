@@ -19,7 +19,7 @@ The code is built with following libraries:
 - shutil
 - tqdm
 
-Extra setup is required for data preprocessing. Please refer to [preprocessing](./annotation/script.py).
+Extra setup is required for data preprocessing. Please refer to [preprocessing](./annotation/preprocessing.py).
 
 ## Training
 We use the weight provided by OpenCLIP as the starting point for our training.
