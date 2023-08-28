@@ -2,7 +2,7 @@
 
 This is a PyTorch implementation of the paper:
 
-*Zengqun Zhao, Ioannis Patras. "[Prompting Visual-Language Models for Dynamic Facial Expression Recognition]()", British Machine Vision Conference (BMVC), 2023.*
+*Zengqun Zhao, Ioannis Patras. "[Prompting Visual-Language Models for Dynamic Facial Expression Recognition](https://arxiv.org/abs/2308.13382)", British Machine Vision Conference (BMVC), 2023.*
 
 ## Overview
 
