@@ -1046,7 +1046,7 @@
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08033 29 6
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08034 125 2
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08035 47 3
-/data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08038 16 4
+/data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08038 12 4
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08040 53 0
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08042 94 0
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08043 94 4
@@ -1284,7 +1284,7 @@
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08367 141 2
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08368 95 3
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08371 48 2
-/data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08372 16 6
+/data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08372 15 6
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08373 55 3
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08375 96 0
 /data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/08376 60 6
