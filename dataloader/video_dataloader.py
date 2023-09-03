@@ -55,7 +55,7 @@ class VideoDataset(data.Dataset):
         elif record.num_frames > self.num_segments:
             offsets = np.sort(randint(record.num_frames - self.duration + 1, size=self.num_segments))
         else:
-            offsets = np.zeros((self.num_segments,))
+            offsets = np.pad(np.array(list(range(record.num_frames))), (0, self.num_segments - record.num_frames), 'edge')
         return offsets
 
     def _get_test_indices(self, record):
@@ -66,7 +66,7 @@ class VideoDataset(data.Dataset):
             tick = (record.num_frames - self.duration + 1) / float(self.num_segments)
             offsets = np.array([int(tick / 2.0 + tick * x) for x in range(self.num_segments)])
         else:
-            offsets = np.zeros((self.num_segments,))
+            offsets = np.pad(np.array(list(range(record.num_frames))), (0, self.num_segments - record.num_frames), 'edge')
         return offsets
 
     def __getitem__(self, index):
