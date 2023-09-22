@@ -1,23 +1,18 @@
-# DFER-CLIP
+# DFER-CLIP: Prompting Visual-Language Models for Dynamic Facial Expression Recognition
+
+<p align="center">
+    <img src="./img/overview.png" alt="svg" width="600"/>
+</p>
 
 This is a PyTorch implementation of the paper:
 
 *Zengqun Zhao, Ioannis Patras. "[Prompting Visual-Language Models for Dynamic Facial Expression Recognition](https://arxiv.org/abs/2308.13382)", British Machine Vision Conference (BMVC), 2023.*
 
-## Overview
-
-![EmotionCLIP](./img/overview.png)
+### Abstract
+This paper presents a novel visual-language model called DFER-CLIP, which is based on the CLIP model and designed for in-the-wild Dynamic Facial Expression Recognition (DFER). Specifically, the proposed DFER-CLIP consists of a visual part and a textual part. For the visual part, based on the CLIP image encoder, a temporal model consisting of several Transformer encoders is introduced for extracting temporal facial expression features, and the final feature embedding is obtained as a learnable "class" token. For the textual part, we use as inputs textual descriptions of the facial behaviour that is related to the classes (facial expressions) that we are interested in recognising -- those descriptions are generated using large language models, like ChatGPT. This, in contrast to works that use only the class names and more accurately captures the relationship between them. Alongside the textual description, we introduce a learnable token which helps the model learn relevant context information for each expression during training. Extensive experiments demonstrate the effectiveness of the proposed method and show that our DFER-CLIP also achieves state-of-the-art results compared with the current supervised DFER methods on the DFEW, FERV39k, and MAFW benchmarks.
 
 ## Requirement
-The code is built with following libraries:
-- pytorch
-- scikit-learn
-- einops
-- matplotlib
-- numpy
-- math
-- shutil
-- tqdm
+The code is built with following libraries: **PyTorch, scikit-learn, einops, matplotlib, numpy, math, shutil, tqdm**
 
 Extra setup is required for data preprocessing. Please refer to [preprocessing](./annotation/preprocessing.py).
 
@@ -29,7 +24,9 @@ We use the weight provided by OpenCLIP as the starting point for our training.
 ## Performance
 Performance on DFEW, FERV39k, and MAFW benchmarks:
 
-![image](./img/performance.png)
+<p align="center">
+    <img src="./img/performance.png" alt="svg" width="600"/>
+</p>
 
 UAR: Unweighted Average Recall (the accuracy per class divided by the number of classes without considering the number of
 instances per class); WAR: Weighted Average Recall (accuracy)
