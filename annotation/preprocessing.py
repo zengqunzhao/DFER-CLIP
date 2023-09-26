@@ -1,3 +1,5 @@
+# {'Happiness':0, 'Sadness':1, 'Neutral':2, 'Anger':3, 'Surprise':4, 'Disgust':5, 'Fear':6, 'Contempt':7, 'Snxiety':8, 'Helplessness':9, 'Disappointment':10}
+
 from glob import glob
 import os
 
