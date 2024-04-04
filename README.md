@@ -21,6 +21,13 @@ We use the weight provided by OpenCLIP as the starting point for our training.
 
 ``` train_DFEW.sh ```, ``` train_FERV3k.sh ```, and ``` train_MAFW.sh ``` are for running on corresponding dataset. 
 
+## Test (Pre-trained Models)
+The pre-trained models on DFEW five folds can be downloaded at [fold_1](https://drive.google.com/file/d/1tH1d2zZv2HtcQFPrGuVWJHXmD9sTeddQ/view?usp=drive_link), [fold_2](https://drive.google.com/file/d/1w6yESY3cNwcOCwQa-dTxIHNWBv57PRUR/view?usp=drive_link), [fold_3](https://drive.google.com/file/d/1kmI1XlZdQIr6R33tBdteyrmYl0UgyXv8/view?usp=drive_link), [fold_4](https://drive.google.com/file/d/10pxe7fCtASuKaxpZSGb7nR6EAjN7YSR6/view?usp=drive_link), and [fold_5](https://drive.google.com/file/d/161pNBUgR_uPSvptzN4ZI4_L7-tvF9SD8/view?usp=drive_link), respectively.
+
+The pre-trained model on FERV39k can be downloaded at [here](https://drive.google.com/file/d/1lRUw5eTa7TGSEombjHqCPE76oP2c_3fz/view?usp=drive_link).
+
+The pre-trained models on MAFW five folds can be downloaded at [fold_1](https://drive.google.com/file/d/1vaICPQ9g3gfYpEcRwej6Se5qRb0LzbP6/view?usp=drive_link), [fold_2](https://drive.google.com/file/d/1NCJU33j7yr6t_RXJeR1pO_znrN_jV5EC/view?usp=drive_link), [fold_3](https://drive.google.com/file/d/12MS8ZVh582n2j37zy2Z7V85IwcnxuKC4/view?usp=drive_link), [fold_4](https://drive.google.com/file/d/1Zs6pkzPU2Wkqb5ykrTU-csiu_c8Tpggh/view?usp=drive_link), and [fold_5](https://drive.google.com/file/d/1txju5MPe2eODw98Uz16iG3vxTR1GLMrx/view?usp=drive_link), respectively.
+
 ## Performance
 Performance on DFEW, FERV39k, and MAFW benchmarks:
 
